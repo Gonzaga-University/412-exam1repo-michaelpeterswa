@@ -2,7 +2,8 @@
 
 import sys
 
-class Adder():
+
+class Adder:
     def __init__(self, val1, val2):
         self.val1 = val1
         self.val2 = val2
@@ -12,7 +13,7 @@ class Adder():
 
 
 if __name__ == "__main__":
-    print("Starting program")
+    print("Starting program and calling Adder(10,20), then getSum()")
 
     adder = Adder(10, 20)
     print(adder.getSum())
