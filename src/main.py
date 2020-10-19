@@ -13,7 +13,7 @@ class Adder:
 
 
 if __name__ == "__main__":
-    print("Starting program and calling Adder(10,20)")
+    print("Starting program and calling Adder(10,20), then getSum()")
 
     adder = Adder(10, 20)
     print(adder.getSum())
